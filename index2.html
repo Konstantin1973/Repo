@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<hr>
+<p><b>Заказчик</b>: <?=$order["name"]?></p>
+<p><b>Email</b>: <?=$order["email"]?></p>
+<p><b>Телефон</b>: <?=$order["phone"]?></p>
+<p><b>Адрес доставки</b>: <?=$order["address"]?></p>
+<p><b>Дата размещения заказа</b>: <?=date("d-m-Y H:i:s", $order["datetime"])?></p>
+<h3>Купленные товары:</h3>
+</body>
+</html>
